@@ -1,7 +1,30 @@
 *{
-    margin: 0;
-    border: 0;
-    padding: 0;
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--font);
+}
+
+p{
+    color: var(--color-neutral-grey);    
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--color-neutral-d_grey);
+}
+
+.btn-primary{
+    background-color: var(--color-primary);
+    border-radius: 4px;
+    color: var(--color-neutral-white);
+    padding: 14px 32px;
+    cursor: pointer;
+    margin-top: 32px;
 }
 
 :root{
@@ -21,8 +44,8 @@
     --color-shade2: #388E3B;
     --color-shade3: #237D31;
     --color-shade4: #1B5E1F;
-    --color-shade5: #103E13;
-   
+    --color-shade5: #103E13; 
+    
     --color-tint1: #66BB69;
     --color-tint2: #81C784;
     --color-tint3: #A5D6A7;
@@ -33,5 +56,5 @@
     --color-action-error: #E53835;
     --color-action-success: #2E7D31;
 
-    --font:'Inter';
+    --font: 'Inter';
 }
